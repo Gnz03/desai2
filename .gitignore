@@ -1,2 +1,12 @@
 .idea
 target
+
+1. Inicializar el proyecto git init (*)
+2. verificar nuevos cambios git status
+3. Agregar los archivos al repositorios git add .
+4.Hacer commit git commit -m "Primer commit"
+5. Agregar el repositorio remoto git remote add origin+url (si es que no esta agregado) (*)
+6. Subir los cambios al repo remoto que hemos agregado con git push -u origin master//git push origin master
+
+git config --global user.name "gnz03"
+git config --global user.email gonzalomoralessegura@gmail.com
